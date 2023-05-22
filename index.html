@@ -5,30 +5,30 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>repl.it</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="./css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<div class="container">
 		<h2>To Do List App</h2>
-		<p><em> Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
+		<p><em> One click on "Add" button to add a new task after it is typed. Double click to mark an item off, click on "X" to delete an item, and drag items to reorder.</em></p>
        
 		<form name="toDoList">
 			<input type="text" name="ListItem" id="input"/>
 		</form>
     
-		<div onclick="newItem()" id="button">Add</div>
+		<div id="button">Add</div>
 		<br/>
 		<ol id="list"></ol>
   </div>
   <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
+  src="https://code.jquery.com/jquery-3.7.0.min.js">
+    integrity="sha256-32b42f9bc813dd6bad1b45129eade1df8dd1463908f79505209fbfa1aa71018a"
+    crossorigin="anonymous"></script>
   <script
   src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
   integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
   crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <script src="./js/scrpit.js"></script>
   </body>
 </html>
